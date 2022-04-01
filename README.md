@@ -9,14 +9,19 @@ To write a program to implement the linear regression using gradient descent.
 
 ## Algorithm
 1. Use the standard libraries in python for Gradient Design.
-2.Upload the dataset and check any null value using .isnull() function.
-3.Declare the default values for linear regression.
-4.Calculate the loss usinng Mean Square Error.
-5.Predict the value of y.
-6.Plot the graph respect to hours and scores using scatter plot function.
+2. Upload the dataset and check any null value using .isnull() function.
+3. Declare the default values for linear regression.
+4. Calculate the loss usinng Mean Square Error.
+5. Predict the value of y.
+6. Plot the graph respect to hours and scores using scatter plot function.
 
 ## Program:
 ```
+/*
+Program to implement the linear regression using gradient descent.
+Developed by: Palamakula Deepika
+RegisterNumber:  212221240035
+*/
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -52,11 +57,6 @@ plt.plot(loss)
 plt.xlabel("Iterations")
 plt.ylabel("loss")
 
-/*
-Program to implement the linear regression using gradient descent.
-Developed by: 
-RegisterNumber:  
-*/
 ```
 
 ## Output:
